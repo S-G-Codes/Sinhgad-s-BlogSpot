@@ -3,7 +3,7 @@ import moment from "moment";
 import parse from "html-react-parser";
 
 const PostDetail = ({ post }) => {
-  return (
+//   return (
     <>
       {/* //fn for getting our blog content as original it is like bold words, tags and etc
   // const getContentFragment = (index, text, obj, type) => {
@@ -105,7 +105,7 @@ const PostDetail = ({ post }) => {
         </div>
       </div>
     </>
-  );
+//   );
 };
 
 export default PostDetail;
