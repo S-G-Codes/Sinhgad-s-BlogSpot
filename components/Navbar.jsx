@@ -22,7 +22,7 @@ useEffect(() => {
            <Link href="/">
         <span className='cursor-pointer font-bold text-4xl text-white '>
             
-             Sinhgad&apos BlogSpot
+              Sinhgad&apos;s BlogSpot
         </span>
         </Link>
            </div>
