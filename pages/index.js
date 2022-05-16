@@ -12,7 +12,7 @@ export default function Home({ posts }) {
     <div className="container mx-auto px-10 mb-8">
       
       <Head>
-        <title>Sinhgad's BlogSpot</title>
+        <title>Sinhgad&apos BlogSpot</title>
       </Head>
 
       <FeaturedPosts />
