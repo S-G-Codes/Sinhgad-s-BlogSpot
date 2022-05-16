@@ -4,7 +4,7 @@ import { getPosts } from '../services';
 import Head from 'next/head';
 
 export default function Home({ posts }) {
-  return (
+ <>
    
     
      
@@ -30,7 +30,7 @@ export default function Home({ posts }) {
         </div>
       </div>
     </div>
-  );
+  </>
 }
 
 // Fetch data at build time
