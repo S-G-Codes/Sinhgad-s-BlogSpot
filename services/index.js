@@ -253,5 +253,6 @@ export const getRecentPosts = async () => {
   `;
   const result = await request(graphqlAPI, query);
 
-  return result.posts;
+  
+  return result.posts.reverse();
 };
